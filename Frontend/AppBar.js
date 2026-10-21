@@ -114,7 +114,7 @@ const AppBar = ({ navigation }) => {
           iconColor="white"
           onPress={() => navigation.openDrawer()}
         />
-        <Appbar.Content title="Games" titleStyle={{ color: 'white' }} />
+        <Appbar.Content title="Vitrine de Jogos" titleStyle={{ color: 'black' }} />
         <Appbar.Action
           icon="magnify"
           iconColor="white"
@@ -127,16 +127,12 @@ const AppBar = ({ navigation }) => {
         />
       </Appbar.Header>
 
-      {/* ABAS DE CATEGORIAS */}
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
         style={styles.tabs}
         contentContainerStyle={styles.tabsContent}
       >
-        <View style={styles.tab}>
-          <Text style={styles.tabText}>JOGOS</Text>
-        </View>
       </ScrollView>
 
       {/* LISTA DE CARDS DINÂMICOS */}

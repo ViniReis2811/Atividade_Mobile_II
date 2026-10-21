@@ -23,7 +23,7 @@ const Acesso = ({ navigation }) => {
                     variant="headlineSmall"
                     style={styles.acessoTitulo}
                 >
-                    Bem-vindo!
+                    Olá, Seja Bem-vindo!
                 </Text>
                 <Text
                     variant="bodyLarge"

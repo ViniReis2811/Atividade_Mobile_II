@@ -142,12 +142,12 @@ const styles = StyleSheet.create({
     marginLeft: 15,
   },
   nome: {
-    color: '#FFFFFF',
+    color: 'rgb(67, 66, 66)',
     fontWeight: 'bold',
     fontSize: 19,
   },
   email: {
-    color: '#FFFFFF',
+    color: 'rgb(67, 66, 66)',
     marginTop: 3,
   },
   itemMenu: {
@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   itemTexto: {
-    color: '#FFFFFF',
+    color: 'rgb(67, 66, 66)',
     fontWeight: 'bold',
   },
 });

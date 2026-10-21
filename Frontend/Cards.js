@@ -51,7 +51,7 @@ const ModCard = ({ conteudo, onEditar, onExcluir }) => {
             </Button>
           </View>
         ) : (
-          <Button mode="text" onPress={() => console.log('Visualizando:', item.titulo)}>
+          <Button mode="text" onPress={() => console.log('Jogo selecionado:', item.titulo)}>
             Ver detalhes
           </Button>
         )}
