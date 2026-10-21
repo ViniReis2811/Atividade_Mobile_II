@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   avatar: {
-    backgroundColor: '#F2A900',
+    backgroundColor: '#0c70ce',
   },
   avatarImagem: {
     width: 100,
@@ -254,7 +254,7 @@ const styles = StyleSheet.create({
   botao: {
     marginTop: 10,
     paddingVertical: 5,
-    backgroundColor: '#eda73e',
+    backgroundColor: '#890cb3',
   },
   botaoVoltar: {
     marginTop: 15,

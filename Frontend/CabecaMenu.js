@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   avatar: {
-    backgroundColor: '#F2A900',
+    backgroundColor: '#0065f2',
   },
   informacoes: {
     flex: 1,

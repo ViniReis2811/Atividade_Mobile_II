@@ -35,7 +35,7 @@ const ModCard = ({ conteudo, onEditar, onExcluir }) => {
             <Button
               icon="pencil"
               mode="text"
-              textColor="#eda73e"
+              textColor="#1466ca"
               onPress={() => onEditar && onEditar(item)}
             >
               Editar Imagem
@@ -44,7 +44,7 @@ const ModCard = ({ conteudo, onEditar, onExcluir }) => {
             <Button
               icon="delete"
               mode="text"
-              textColor="#B00020"
+              textColor="#8700b0"
               onPress={() => onExcluir && onExcluir(item._id)}
             >
               Excluir

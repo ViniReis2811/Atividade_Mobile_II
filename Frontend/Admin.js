@@ -216,7 +216,7 @@ const Admin = ({ navigation }) => {
 
           <TextInput
             label="Título *"
-            placeholder="Ex: Breaking Bad"
+            placeholder="Ex: Minecraft"
             value={titulo}
             onChangeText={setTitulo}
             mode="outlined"
@@ -224,7 +224,7 @@ const Admin = ({ navigation }) => {
           />
 
           <TextInput
-            label="Subtítulo / Episódio"
+            label="Gênero"
             placeholder="Ex: 1x01 - Pilot"
             value={subtitulo}
             onChangeText={setSubtitulo}
@@ -290,7 +290,7 @@ const Admin = ({ navigation }) => {
                 <View style={{ flexDirection: 'row' }}>
                   <IconButton
                     icon="pencil"
-                    iconColor="#eda73e"
+                    iconColor="#3e7eed"
                     size={22}
                     onPress={() => abrirEdicao(item)}
                   />

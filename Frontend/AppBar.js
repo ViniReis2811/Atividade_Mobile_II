@@ -114,7 +114,7 @@ const AppBar = ({ navigation }) => {
           iconColor="white"
           onPress={() => navigation.openDrawer()}
         />
-        <Appbar.Content title="Technologic" titleStyle={{ color: 'white' }} />
+        <Appbar.Content title="Games" titleStyle={{ color: 'white' }} />
         <Appbar.Action
           icon="magnify"
           iconColor="white"
@@ -135,19 +135,7 @@ const AppBar = ({ navigation }) => {
         contentContainerStyle={styles.tabsContent}
       >
         <View style={styles.tab}>
-          <Text style={styles.tabText}>TODOS</Text>
-        </View>
-        <View style={styles.tab}>
-          <Text style={styles.tabText}>SÉRIES</Text>
-        </View>
-        <View style={styles.tab}>
-          <Text style={styles.tabText}>FILMES</Text>
-        </View>
-        <View style={styles.tab}>
-          <Text style={styles.tabText}>DOCUMENTÁRIOS</Text>
-        </View>
-        <View style={styles.tab}>
-          <Text style={styles.tabText}>LANÇAMENTOS</Text>
+          <Text style={styles.tabText}>JOGOS</Text>
         </View>
       </ScrollView>
 
